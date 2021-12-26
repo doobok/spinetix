@@ -13,17 +13,18 @@ module.exports = {
             animation: {
                 // 'pulse-once': 'pulse 0.1s ease-in-out 1',
             },
-            colors: {
-                grass: '#49af39',
-                red: '#e50216',
-                // primary: '#4168BB',
-                // 'primary-50': '#455575',
-                // 'primary-100': '#567BCA',
-                // secondary: '#FFC046',
-                // 'secondary-50': '#9F8757',
-                // 'secondary-100': '#FFC75B',
-                // teal: colors.teal,
+            inset: {
+                '100': '100%',
             },
+
+            padding: {
+                '120': '120px',
+            },
+
+            colors: {
+                'theme-color': '#337ab7',
+                'theme-color-2': '#0f0'
+            }
         },
     },
     variants: {
