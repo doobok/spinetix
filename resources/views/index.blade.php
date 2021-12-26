@@ -108,25 +108,25 @@
     </div>
 </section>
 
-<div class="pt-24 brand-area">
-    <div class="container mx-auto px-4">
-        <div class="row">
-            <div class="w-full">
-                <div class="items-center justify-center row lg:justify-between">
-                    <div class="single-logo hover:opacity-100 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.2s">
-                        <img src="assets/intel.png" alt="brand">
-                    </div> <!-- single logo -->
-                    <div class="single-logo hover:opacity-100 wow fadeIn" data-wow-duration="1.5s" data-wow-delay="0.2s">
-                        <img src="assets/creston.png" alt="brand">
-                    </div> <!-- single logo -->
-                    <div class="single-logo hover:opacity-100 wow fadeIn" data-wow-duration="1.5s" data-wow-delay="0.3s">
-                        <img src="assets/axis.png" alt="brand">
-                    </div> <!-- single logo -->
-                </div> <!-- brand logo -->
-            </div>
-        </div>   <!-- row -->
-    </div> <!-- container -->
-</div>
+{{--<div class="pt-24 brand-area">--}}
+{{--    <div class="container mx-auto px-4">--}}
+{{--        <div class="row">--}}
+{{--            <div class="w-full">--}}
+{{--                <div class="items-center justify-center row lg:justify-between">--}}
+{{--                    <div class="single-logo hover:opacity-100 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.2s">--}}
+{{--                        <img src="assets/intel.png" alt="brand">--}}
+{{--                    </div> <!-- single logo -->--}}
+{{--                    <div class="single-logo hover:opacity-100 wow fadeIn" data-wow-duration="1.5s" data-wow-delay="0.2s">--}}
+{{--                        <img src="assets/creston.png" alt="brand">--}}
+{{--                    </div> <!-- single logo -->--}}
+{{--                    <div class="single-logo hover:opacity-100 wow fadeIn" data-wow-duration="1.5s" data-wow-delay="0.3s">--}}
+{{--                        <img src="assets/axis.png" alt="brand">--}}
+{{--                    </div> <!-- single logo -->--}}
+{{--                </div> <!-- brand logo -->--}}
+{{--            </div>--}}
+{{--        </div>   <!-- row -->--}}
+{{--    </div> <!-- container -->--}}
+{{--</div>--}}
 
 
 <section id="in-dev" class="relative pt-20 about-area">
