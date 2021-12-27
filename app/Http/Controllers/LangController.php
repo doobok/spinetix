@@ -3,18 +3,36 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Support\Facades\App;
-use Illuminate\Http\Request;
+use Request;
 use Illuminate\Support\Facades\Redirect;
 
 class LangController extends Controller
 {
     public function setLocale($lang){
-        if (! in_array($lang, ['uk', 'ru',])) {
-            abort(400);
+        $referer = Redirect::back()->getTargetUrl(); //URL предыдущей страницы
+        $parse_url = parse_url($referer, PHP_URL_PATH); //URI предыдущей страницы
+
+        //разбиваем на массив по разделителю
+        $segments = explode('/', $parse_url);
+
+        //Если URL (где нажали на переключение языка) содержал корректную метку языка
+        if (in_array($segments[1], \App\Http\Middleware\LocaleMiddleware::$languages)) {
+
+            unset($segments[1]); //удаляем метку
         }
 
-        App::setLocale($lang);
+        //Добавляем метку языка в URL (если выбран не язык по-умолчанию)
+        if ($lang != \App\Http\Middleware\LocaleMiddleware::$mainLanguage){
+            array_splice($segments, 1, 0, $lang);
+        }
 
-        return back(); //Перенаправляем назад на ту же страницу
+        //формируем полный URL
+        $url = Request::root().implode("/", $segments);
+
+        //если были еще GET-параметры - добавляем их
+        if(parse_url($referer, PHP_URL_QUERY)){
+            $url = $url.'?'. parse_url($referer, PHP_URL_QUERY);
+        }
+        return redirect($url); //Перенаправляем назад на ту же страницу
     }
 }
