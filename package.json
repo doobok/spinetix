@@ -29,6 +29,7 @@
         "vuex": "^3.6.2"
     },
     "dependencies": {
-        "postcss-import": "^14.0.2"
+        "postcss-import": "^14.0.2",
+        "vue-multilanguage": "^4.0.18"
     }
 }

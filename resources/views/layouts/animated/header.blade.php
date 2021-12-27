@@ -1,4 +1,4 @@
-<div class="header-hero relative h-full" style="background-image: url(assets/images/banner-bg.svg)">
+<div class="header-hero relative h-full" style="background-image: url(/assets/images/banner-bg.svg)">
     <div class="bubl">
         <div class="bubl1 absolute"></div>
         <div class="bubl2 absolute"></div>
@@ -25,7 +25,7 @@
             <div class="w-full lg:w-2/3">
                 <div class="text-center header-hero-image wow fadeIn z-50" data-wow-duration="1.3s"
                      data-wow-delay="1.4s">
-                    <img src="assets/images/header-hero.png" alt="hero">
+                    <img src="/assets/images/header-hero.png" alt="hero">
                 </div>
             </div>
         </div>

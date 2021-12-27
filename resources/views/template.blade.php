@@ -102,7 +102,7 @@
         </div> <!-- container -->
     </div> <!-- navbar area -->
 
-    <div id="home" class="header-hero" style="background-image: url(assets/images/banner-bg.svg)">
+    <div id="home" class="header-hero" style="background-image: url(/assets/images/banner-bg.svg)">
         <div class="container">
             <div class="justify-center row">
                 <div class="w-full lg:w-2/3">
@@ -117,7 +117,7 @@
             <div class="justify-center row">
                 <div class="w-full lg:w-2/3">
                     <div class="text-center header-hero-image wow fadeIn" data-wow-duration="1.3s" data-wow-delay="1.4s">
-                        <img src="assets/images/header-hero.png" alt="hero">
+                        <img src="/assets/images/header-hero.png" alt="hero">
                     </div> <!-- header hero image -->
                 </div>
             </div> <!-- row -->
@@ -136,19 +136,19 @@
             <div class="w-full">
                 <div class="items-center justify-center row lg:justify-between">
                     <div class="single-logo hover:opacity-100 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.2s">
-                        <img src="assets/images/brand-1.png" alt="brand">
+                        <img src="/assets/images/brand-1.png" alt="brand">
                     </div> <!-- single logo -->
                     <div class="single-logo hover:opacity-100 wow fadeIn" data-wow-duration="1.5s" data-wow-delay="0.2s">
-                        <img src="assets/images/brand-2.png" alt="brand">
+                        <img src="/assets/images/brand-2.png" alt="brand">
                     </div> <!-- single logo -->
                     <div class="single-logo hover:opacity-100 wow fadeIn" data-wow-duration="1.5s" data-wow-delay="0.3s">
-                        <img src="assets/images/brand-3.png" alt="brand">
+                        <img src="/assets/images/brand-3.png" alt="brand">
                     </div> <!-- single logo -->
                     <div class="single-logo hover:opacity-100 wow fadeIn" data-wow-duration="1.5s" data-wow-delay="0.4s">
-                        <img src="assets/images/brand-4.png" alt="brand">
+                        <img src="/assets/images/brand-4.png" alt="brand">
                     </div> <!-- single logo -->
                     <div class="single-logo hover:opacity-100 wow fadeIn" data-wow-duration="1.5s" data-wow-delay="0.5s">
-                        <img src="assets/images/brand-5.png" alt="brand">
+                        <img src="/assets/images/brand-5.png" alt="brand">
                     </div> <!-- single logo -->
                 </div> <!-- brand logo -->
             </div>
@@ -174,8 +174,8 @@
             <div class="w-full sm:w-2/3 lg:w-1/3">
                 <div class="single-services wow fadeIn" data-wow-duration="1s" data-wow-delay="0.2s">
                     <div class="services-icon">
-                        <img class="shape" src="assets/images/services-shape.svg" alt="shape">
-                        <img class="shape-1" src="assets/images/services-shape-1.svg" alt="shape">
+                        <img class="shape" src="/assets/images/services-shape.svg" alt="shape">
+                        <img class="shape-1" src="/assets/images/services-shape-1.svg" alt="shape">
                         <i class="lni lni-baloon"></i>
                     </div>
                     <div class="mt-8 services-content">
@@ -188,8 +188,8 @@
             <div class="w-full sm:w-2/3 lg:w-1/3">
                 <div class="mt-8 text-center single-services wow fadeIn" data-wow-duration="1s" data-wow-delay="0.5s">
                     <div class="services-icon">
-                        <img class="shape" src="assets/images/services-shape.svg" alt="shape">
-                        <img class="shape-1" src="assets/images/services-shape-2.svg" alt="shape">
+                        <img class="shape" src="/assets/images/services-shape.svg" alt="shape">
+                        <img class="shape-1" src="/assets/images/services-shape-2.svg" alt="shape">
                         <i class="lni lni-cog"></i>
                     </div>
                     <div class="mt-8 services-content">
@@ -202,8 +202,8 @@
             <div class="w-full sm:w-2/3 lg:w-1/3">
                 <div class="mt-8 text-center single-services wow fadeIn" data-wow-duration="1s" data-wow-delay="0.8s">
                     <div class="services-icon">
-                        <img class="shape" src="assets/images/services-shape.svg" alt="shape">
-                        <img class="shape-1" src="assets/images/services-shape-3.svg" alt="shape">
+                        <img class="shape" src="/assets/images/services-shape.svg" alt="shape">
+                        <img class="shape-1" src="/assets/images/services-shape-3.svg" alt="shape">
                         <i class="lni lni-bolt-alt"></i>
                     </div>
                     <div class="mt-8 services-content">
@@ -236,13 +236,13 @@
             </div>
             <div class="w-full lg:w-1/2">
                 <div class="mx-4 mt-12 text-center about-image wow fadeInRightBig" data-wow-duration="1s" data-wow-delay="0.5s">
-                    <img src="assets/images/about1.svg" alt="about">
+                    <img src="/assets/images/about1.svg" alt="about">
                 </div> <!-- about image -->
             </div>
         </div> <!-- row -->
     </div> <!-- container -->
     <div class="about-shape-1">
-        <img src="assets/images/about-shape-1.svg" alt="shape">
+        <img src="/assets/images/about-shape-1.svg" alt="shape">
     </div>
 </section>
 
@@ -252,7 +252,7 @@
 
 <section class="relative pt-20 about-area">
     <div class="about-shape-2">
-        <img src="assets/images/about-shape-2.svg" alt="shape">
+        <img src="/assets/images/about-shape-2.svg" alt="shape">
     </div>
     <div class="container">
         <div class="row">
@@ -268,7 +268,7 @@
             </div>
             <div class="w-full lg:w-1/2 lg:order-first">
                 <div class="mx-4 mt-12 text-center about-image wow fadeInRightBig" data-wow-duration="1s" data-wow-delay="0.5s">
-                    <img src="assets/images/about2.svg" alt="about">
+                    <img src="/assets/images/about2.svg" alt="about">
                 </div> <!-- about image -->
             </div>
         </div> <!-- row -->
@@ -293,13 +293,13 @@
             </div>
             <div class="w-full lg:w-1/2">
                 <div class="mx-4 mt-12 text-center about-image wow fadeInRightBig" data-wow-duration="1s" data-wow-delay="0.5s">
-                    <img src="assets/images/about3.svg" alt="about">
+                    <img src="/assets/images/about3.svg" alt="about">
                 </div> <!-- about image -->
             </div>
         </div> <!-- row -->
     </div> <!-- container -->
     <div class="about-shape-1">
-        <img src="assets/images/about-shape-1.svg" alt="shape">
+        <img src="/assets/images/about-shape-1.svg" alt="shape">
     </div>
 </section>
 
@@ -315,10 +315,10 @@
         <div class="row">
             <div class="w-full lg:w-1/2">
                 <div class="relative pb-8 mt-12 video-content wow fadeIn" data-wow-duration="1s" data-wow-delay="0.5s">
-                    <img class="absolute bottom-0 left-0 -ml-8 dots" src="assets/images/dots.svg" alt="dots">
+                    <img class="absolute bottom-0 left-0 -ml-8 dots" src="/assets/images/dots.svg" alt="dots">
                     <div class="relative mr-6 rounded-lg shadow-md video-wrapper">
                         <div class="video-image">
-                            <img src="assets/images/video.png" alt="video">
+                            <img src="/assets/images/video.png" alt="video">
                         </div>
                         <div class="absolute top-0 left-0 flex items-center justify-center w-full h-full bg-blue-900 bg-opacity-25 rounded-lg video-icon">
                             <a href="https://www.youtube.com/watch?v=r44RKWyfcFw" class="video-popup"><i class="lni lni-play"></i></a>
@@ -379,7 +379,7 @@
             <div class="w-full sm:w-2/3 lg:w-1/3">
                 <div class="mt-8 text-center single-team wow fadeIn" data-wow-duration="1s" data-wow-delay="0.2s">
                     <div class="relative team-image">
-                        <img class="w-full" src="assets/images/team-1.png" alt="Team">
+                        <img class="w-full" src="/assets/images/team-1.png" alt="Team">
                         <div class="team-social">
                             <ul>
                                 <li><a href="javascript:void(0)"><i class="lni lni-facebook-filled"></i></a></li>
@@ -398,7 +398,7 @@
             <div class="w-full sm:w-2/3 lg:w-1/3">
                 <div class="mt-8 text-center single-team wow fadeIn" data-wow-duration="1s" data-wow-delay="0.5s">
                     <div class="relative team-image">
-                        <img class="w-full" src="assets/images/team-2.png" alt="Team">
+                        <img class="w-full" src="/assets/images/team-2.png" alt="Team">
                         <div class="team-social">
                             <ul>
                                 <li><a href="javascript:void(0)"><i class="lni lni-facebook-filled"></i></a></li>
@@ -417,7 +417,7 @@
             <div class="w-full sm:w-2/3 lg:w-1/3">
                 <div class="mt-8 text-center single-team wow fadeIn" data-wow-duration="1s" data-wow-delay="0.8s">
                     <div class="relative team-image">
-                        <img class="w-full" src="assets/images/team-3.png" alt="Team">
+                        <img class="w-full" src="/assets/images/team-3.png" alt="Team">
                         <div class="team-social">
                             <ul>
                                 <li><a href="javascript:void(0)"><i class="lni lni-facebook-filled"></i></a></li>
@@ -473,8 +473,8 @@
                     </div>
                     <div class="flex items-center testimonial-author">
                         <div class="relative author-image">
-                            <img class="shape" src="assets/images/textimonial-shape.svg" alt="shape">
-                            <img class="author" src="assets/images/author-1.png" alt="author">
+                            <img class="shape" src="/assets/images/textimonial-shape.svg" alt="shape">
+                            <img class="author" src="/assets/images/author-1.png" alt="author">
                         </div>
                         <div class="author-content media-body">
                             <h6 class="mb-1 text-xl font-bold text-gray-900">Jenny Deo</h6>
@@ -504,8 +504,8 @@
                     </div>
                     <div class="flex items-center testimonial-author">
                         <div class="relative author-image">
-                            <img class="shape" src="assets/images/textimonial-shape.svg" alt="shape">
-                            <img class="author" src="assets/images/author-2.png" alt="author">
+                            <img class="shape" src="/assets/images/textimonial-shape.svg" alt="shape">
+                            <img class="author" src="/assets/images/author-2.png" alt="author">
                         </div>
                         <div class="author-content media-body">
                             <h6 class="mb-1 text-xl font-bold text-gray-900">Marjin Otte</h6>
@@ -535,8 +535,8 @@
                     </div>
                     <div class="flex items-center testimonial-author">
                         <div class="relative author-image">
-                            <img class="shape" src="assets/images/textimonial-shape.svg" alt="shape">
-                            <img class="author" src="assets/images/author-3.png" alt="author">
+                            <img class="shape" src="/assets/images/textimonial-shape.svg" alt="shape">
+                            <img class="author" src="/assets/images/author-3.png" alt="author">
                         </div>
                         <div class="author-content media-body">
                             <h6 class="mb-1 text-xl font-bold text-gray-900">David Smith</h6>
@@ -566,8 +566,8 @@
                     </div>
                     <div class="flex items-center testimonial-author">
                         <div class="relative author-image">
-                            <img class="shape" src="assets/images/textimonial-shape.svg" alt="shape">
-                            <img class="author" src="assets/images/author-2.png" alt="author">
+                            <img class="shape" src="/assets/images/textimonial-shape.svg" alt="shape">
+                            <img class="author" src="/assets/images/author-2.png" alt="author">
                         </div>
                         <div class="author-content media-body">
                             <h6 class="mb-1 text-xl font-bold text-gray-900">Fajar Siddiq</h6>
@@ -598,7 +598,7 @@
             <div class="w-full md:w-2/3 lg:w-1/3">
                 <div class="mx-4 mt-10 single-blog wow fadeIn" data-wow-duration="1s" data-wow-delay="0.2s">
                     <div class="mb-5 overflow-hidden blog-image rounded-xl">
-                        <img class="w-full" src="assets/images/blog-1.jpg" alt="blog">
+                        <img class="w-full" src="/assets/images/blog-1.jpg" alt="blog">
                     </div>
                     <div class="blog-content">
                         <ul class="flex mb-5 meta">
@@ -616,7 +616,7 @@
             <div class="w-full md:w-2/3 lg:w-1/3">
                 <div class="mx-4 mt-10 single-blog wow fadeIn" data-wow-duration="1s" data-wow-delay="0.5s">
                     <div class="mb-5 overflow-hidden blog-image rounded-xl">
-                        <img class="w-full" src="assets/images/blog-2.jpg" alt="blog">
+                        <img class="w-full" src="/assets/images/blog-2.jpg" alt="blog">
                     </div>
                     <div class="blog-content">
                         <ul class="flex mb-5 meta">
@@ -634,7 +634,7 @@
             <div class="w-full md:w-2/3 lg:w-1/3">
                 <div class="mx-4 mt-10 single-blog wow fadeIn" data-wow-duration="1s" data-wow-delay="0.8s">
                     <div class="mb-5 overflow-hidden blog-image rounded-xl">
-                        <img class="w-full" src="assets/images/blog-3.jpg" alt="blog">
+                        <img class="w-full" src="/assets/images/blog-3.jpg" alt="blog">
                     </div>
                     <div class="blog-content">
                         <ul class="flex mb-5 meta">
@@ -658,7 +658,7 @@
 <!--====== FOOTER PART START ======-->
 
 <footer id="footer" class="relative z-10 footer-area pt-120">
-    <div class="footer-bg" style="background-image: url(assets/images/footer-bg.svg);"></div>
+    <div class="footer-bg" style="background-image: url(/assets/images/footer-bg.svg);"></div>
     <div class="container">
         <div class="px-6 pt-10 pb-20 mb-12 bg-white rounded-lg shadow-xl md:px-12 subscribe-area wow fadeIn" data-wow-duration="1s" data-wow-delay="0.5s">
             <div class="row">

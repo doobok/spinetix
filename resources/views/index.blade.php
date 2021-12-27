@@ -114,13 +114,13 @@
 {{--            <div class="w-full">--}}
 {{--                <div class="items-center justify-center row lg:justify-between">--}}
 {{--                    <div class="single-logo hover:opacity-100 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.2s">--}}
-{{--                        <img src="assets/intel.png" alt="brand">--}}
+{{--                        <img src="/assets/intel.png" alt="brand">--}}
 {{--                    </div> <!-- single logo -->--}}
 {{--                    <div class="single-logo hover:opacity-100 wow fadeIn" data-wow-duration="1.5s" data-wow-delay="0.2s">--}}
-{{--                        <img src="assets/creston.png" alt="brand">--}}
+{{--                        <img src="/assets/creston.png" alt="brand">--}}
 {{--                    </div> <!-- single logo -->--}}
 {{--                    <div class="single-logo hover:opacity-100 wow fadeIn" data-wow-duration="1.5s" data-wow-delay="0.3s">--}}
-{{--                        <img src="assets/axis.png" alt="brand">--}}
+{{--                        <img src="/assets/axis.png" alt="brand">--}}
 {{--                    </div> <!-- single logo -->--}}
 {{--                </div> <!-- brand logo -->--}}
 {{--            </div>--}}
@@ -143,18 +143,18 @@
             </div>
             <div class="w-full lg:w-1/2">
                 <div class="mx-4 mt-12 text-center about-image wow fadeInRightBig" data-wow-duration="1s" data-wow-delay="0.5s">
-                    <img src="assets/in-work.svg">
+                    <img src="/assets/in-work.svg">
                 </div> <!-- about image -->
             </div>
         </div> <!-- row -->
     </div> <!-- container -->
     <div class="about-shape-1">
-        <img src="assets/images/about-shape-1.svg" alt="shape">
+        <img src="/assets/images/about-shape-1.svg" alt="shape">
     </div>
 </section>
 
     <footer id="footer" class="relative z-10 footer-area pt-120">
-        <div class="footer-bg" style="background-image: url(assets/images/footer-bg.svg);"></div>
+        <div class="footer-bg" style="background-image: url(/assets/images/footer-bg.svg);"></div>
         <div class="container">
             <div class="px-6 pt-10 pb-20 mb-12 bg-gray-100 rounded-lg shadow-xl md:px-12 subscribe-area wow fadeIn" data-wow-duration="1s" data-wow-delay="0.5s">
                 <div class="row">
