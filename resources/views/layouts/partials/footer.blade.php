@@ -1,5 +1,5 @@
 <footer id="footer" class="relative z-10 footer-area pt-120">
-    <div class="footer-bg" style="background-image: url(/assets/images/footer-bg.svg);"></div>
+    <div class="footer-bg" style="background-image: url(/assets/wave-bottom.svg);"></div>
     <div class="container">
         <div class="px-6 pt-10 pb-20 mb-12 bg-white rounded-lg shadow-xl md:px-12 subscribe-area wow fadeIn" data-wow-duration="1s" data-wow-delay="0.5s">
             <div class="row">

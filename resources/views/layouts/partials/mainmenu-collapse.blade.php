@@ -1,11 +1,11 @@
 <div class="block lg:hidden">
 
-<ul class="flex flex-col list-none">
+<ul class="flex flex-col list-none mt-6">
 
   @foreach (menu('main_menu', '_json')->translate( App::currentLocale() ) as $menuitem)
-    <li class="flex justify-center submenu">
+    <li class="flex justify-left submenu">
     <a href="{{route('page', $menuitem->url)}}"
-      class="text-gray-800 px-3 py-4 flex items-center text-sm uppercase font-bold"
+      class="text-white px-3 py-4 flex items-center text-sm uppercase"
       style="transition: all 0.15s ease 0s;"
     >
     @if ($menuitem->icon_class)
@@ -38,24 +38,6 @@
     @endif --}}
   </li>
   @endforeach
-
-  <div class="flex flex-wrap justify-center my-2">
-    @if (setting('info.get_vacancy'))
-      <div class="w-full flex justify-center">
-        <tutor-button></tutor-button>
-      </div>
-    @endif
-    <div class="flex items-center mr-1">
-      <online-button></online-button>
-    </div>
-    @if (app()->getLocale() != 'uk')
-        <a href="{{route('setlocale', ['lang' => 'uk'])}}" class="text-gray-500 hover:text-gray-300 px-2 py-3 text-sm uppercase font-bold" rel="nofollow">UA</a>
-    @endif
-    @if (app()->getLocale() != 'ru')
-        <a href="{{route('setlocale', ['lang' => 'ru'])}}" class="text-gray-500 hover:text-gray-300 px-2 py-3 text-sm uppercase font-bold" rel="nofollow">RU</a>
-    @endif
-
-  </div>
 
 </ul>
 </div>

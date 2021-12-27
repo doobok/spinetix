@@ -14,7 +14,7 @@
 @endsection
 
 @section('content')
-
+    <div class="h-20 md:h-24 bg-primary"> </div>
 
     <h1>Hello world</h1>
 

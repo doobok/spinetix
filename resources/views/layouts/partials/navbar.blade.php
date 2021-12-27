@@ -14,13 +14,18 @@
                             </svg>
                             SpinetiX
                         </a>
-                        <button class="block navbar-toggler focus:outline-none lg:hidden" type="button"
-                                data-toggle="collapse" data-target="#navbarOne" aria-controls="navbarOne"
-                                aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="toggler-icon"></span>
-                            <span class="toggler-icon"></span>
-                            <span class="toggler-icon"></span>
-                        </button>
+
+                        <div class="flex flex-nowrap gap-x-2">
+                            <nav-bar class="block lg:hidden" lang="{{app()->getLocale()}}"></nav-bar>
+
+                            <button class="block navbar-toggler focus:outline-none lg:hidden" type="button"
+                                    onclick="toggleNavbar('collapse-navbar')">
+                                <span class="toggler-icon"></span>
+                                <span class="toggler-icon"></span>
+                                <span class="toggler-icon"></span>
+                            </button>
+                        </div>
+
 
                         <div
                             class="absolute left-0 z-20 hidden w-full px-5 py-3 duration-300 bg-white shadow lg:w-auto collapse navbar-collapse lg:block top-100 mt-full lg:static lg:bg-transparent lg:shadow-none">
@@ -34,6 +39,21 @@
                     </nav>
                 </div>
             </div>
+        </div>
+    </div>
+    <div id="collapse-navbar"
+         class="fixed hidden inset-0 bg-black bg-opacity-80 z-50 min-h-screen xl:hidden transition-opacity opacity-100 pointer-events-auto">
+        <div class="w-3/4 md:w-1/3 bg-primary min-h-screen absolute right-0 shadow py-4 px-12">
+            <button class="absolute top-0 right-0 mt-4 mr-4"
+                    onclick="toggleNavbar('collapse-navbar')"
+            >
+                <svg xmlns="http://www.w3.org/2000/svg" class="text-white" fill="currentColor" width="28" height="28" viewBox="0 0 24 24">
+                    <path d="M12 11.293l10.293-10.293.707.707-10.293 10.293 10.293 10.293-.707.707-10.293-10.293-10.293 10.293-.707-.707 10.293-10.293-10.293-10.293.707-.707 10.293 10.293z"/>
+                </svg>
+            </button>
+
+            @include('layouts.partials.mainmenu-collapse')
+
         </div>
     </div>
 </header>
