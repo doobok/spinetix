@@ -7,7 +7,7 @@ module.exports = {
         './resources/js/**/*.js',
         './resources/js/**/*.vue',
     ],
-    darkMode: false, // or 'media' or 'class'
+    darkMode: 'class', // or 'media' or 'class'
     theme: {
         extend: {
             animation: {
@@ -32,6 +32,7 @@ module.exports = {
         extend: {},
     },
     plugins: [
+        require("nightwind"),
         // require('@tailwindcss/typography'),
     ],
 }

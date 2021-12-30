@@ -40,4 +40,11 @@
   @endforeach
 
 </ul>
+    <div class="gap-x-4 flex flex-nowrap absolute bottom-1 right-10">
+        <nav-bar class="block lg:hidden" lang="{{app()->getLocale()}}"></nav-bar>
+        <dark-mode></dark-mode>
+    </div>
+
+
+
 </div>

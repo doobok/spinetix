@@ -15,26 +15,25 @@
                             SpinetiX
                         </a>
 
-                        <div class="flex flex-nowrap gap-x-2">
-                            <nav-bar class="block lg:hidden" lang="{{app()->getLocale()}}"></nav-bar>
-
-                            <button class="block navbar-toggler focus:outline-none lg:hidden" type="button"
-                                    onclick="toggleNavbar('collapse-navbar')">
-                                <span class="toggler-icon"></span>
-                                <span class="toggler-icon"></span>
-                                <span class="toggler-icon"></span>
-                            </button>
-                        </div>
-
-
                         <div
-                            class="absolute left-0 z-20 hidden w-full px-5 py-3 duration-300 bg-white shadow lg:w-auto collapse navbar-collapse lg:block top-100 mt-full lg:static lg:bg-transparent lg:shadow-none">
+                            class="absolute left-0 z-20 hidden w-full px-5 py-3 duration-300 shadow lg:w-auto collapse navbar-collapse lg:block top-100 mt-full lg:static lg:bg-transparent lg:shadow-none">
 
                             @include('layouts.partials.mainmenu')
 
-                        </div> <!-- navbar collapse -->
+                        </div>
 
-                        <nav-bar class="hidden lg:block" lang="{{app()->getLocale()}}"></nav-bar>
+                        <div class="flex flex-nowrap gap-x-2">
+                            <dark-mode class="hidden lg:block"></dark-mode>
+                            <nav-bar class="hidden lg:block" lang="{{app()->getLocale()}}"></nav-bar>
+                        </div>
+
+                        <button class="block navbar-toggler focus:outline-none lg:hidden" type="button"
+                                onclick="toggleNavbar('collapse-navbar')">
+                            <span class="toggler-icon"></span>
+                            <span class="toggler-icon"></span>
+                            <span class="toggler-icon"></span>
+                        </button>
+
 
                     </nav>
                 </div>

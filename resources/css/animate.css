@@ -1,0 +1,32 @@
+.animate {
+    transition-delay: .1s;
+    transition-duration: .25s;
+    transition-timing-function: ease-in;
+}
+
+.fade-up {
+    transform: translateY(+100px);
+    opacity: 0
+}
+.fade-up.animate-active {
+    transform: translateY(0);
+    opacity: 1
+}
+
+.fade-r {
+    transform: translateX(+100px);
+    opacity: 0
+}
+.fade-r.animate-active {
+    transform: translateX(0);
+    opacity: 1
+}
+
+.fade-l {
+    transform: translateX(-100px);
+    opacity: 0
+}
+.fade-l.animate-active {
+    transform: translateX(0);
+    opacity: 1
+}

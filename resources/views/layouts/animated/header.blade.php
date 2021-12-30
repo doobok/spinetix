@@ -1,4 +1,4 @@
-<div class="header-hero relative h-full" style="background-image: url(/assets/wave-top.svg)">
+<div class="header-hero relative h-full bg-gray-100" style="background-image: url(/assets/wave-top.svg)">
     <div class="bubl">
         <div class="bubl1 absolute"></div>
         <div class="bubl2 absolute"></div>

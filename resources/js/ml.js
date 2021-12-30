@@ -7,12 +7,13 @@ export default new MLCreate({
   initial: 'ru',
   languages: [
     new MLanguage('ru').create({
-        search: 'Поиск',
+        dark_mode_toggle: 'Переключить тему',
+
 
     }),
 
     new MLanguage('uk').create({
-        search: 'Пошук',
+        dark_mode_toggle: 'Переключити тему',
 
     }),
 

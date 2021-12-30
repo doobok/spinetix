@@ -1,3 +1,4 @@
 @import './theme/theme.css';
 @import './theme/animation.scss';
 @import 'styles.scss';
+@import 'animate.css';
