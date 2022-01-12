@@ -56,3 +56,4 @@
         </div>
     </div>
 </header>
+<div class="h-20 md:h-24 bg-primary"> </div>

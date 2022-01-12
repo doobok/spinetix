@@ -9,7 +9,7 @@
 
     @include('layouts.partials.navbar')
 
-    <div>
+    <div class="bg-gray-100">
         @yield('content')
     </div>
 

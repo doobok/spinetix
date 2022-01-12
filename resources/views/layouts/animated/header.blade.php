@@ -7,7 +7,7 @@
     <div class="container relative">
         <div class="justify-center row relative">
             <div class="w-full lg:w-2/3">
-                <div class="pt-32 mb-12 text-center lg:pt-48 header-hero-content">
+                <div class="pt-28 mb-12 text-center lg:pt-36 header-hero-content">
                     <h3 class="text-4xl font-light leading-tight text-white header-sub-title wow fadeInUp mb-2"
                         data-wow-duration="1.3s" data-wow-delay="0.2s">Лідер ринку генераторів контенту</h3>
                     <h2 class="mb-3 text-4xl font-bold text-white header-title wow fadeInUp" data-wow-duration="1.3s"

@@ -45,28 +45,21 @@
                         <div class="w-full sm:w-1/2 md:w-1/2 lg:w-1/2">
                             <div class="mt-12 link-wrapper wow fadeIn" data-wow-duration="1s" data-wow-delay="0.4s">
                                 <div class="footer-title">
-                                    <h4 class="mb-8 text-2xl font-bold text-white">Quick Link</h4>
+                                    <h4 class="mb-8 text-2xl font-bold text-white">{{__('site.quick-links')}}</h4>
                                 </div>
                                 <ul class="link">
-                                    <li><a href="#">Road Map</a></li>
-                                    <li><a href="#">Privacy Policy</a></li>
-                                    <li><a href="#">Refund Policy</a></li>
-                                    <li><a href="#">Terms of Service</a></li>
-                                    <li><a href="#">Pricing</a></li>
-                                </ul>
+                                    <li><a href="{{route('page', 'mediaplayers')}}">{{__('site.mediaplayers')}}</a></li>
+                                    <li><a href="{{route('page', 'software')}}">{{__('site.software')}}</a></li>
+                                  </ul>
                             </div> <!-- footer wrapper -->
                         </div>
                         <div class="w-full sm:w-1/2 md:w-1/2 lg:w-1/2">
                             <div class="mt-12 link-wrapper wow fadeIn" data-wow-duration="1s" data-wow-delay="0.6s">
                                 <div class="footer-title">
-                                    <h4 class="mb-8 text-2xl font-bold text-white">Resources</h4>
+                                    <h4 class="mb-8 text-2xl font-bold text-white">{{__('site.resources')}}</h4>
                                 </div>
                                 <ul class="link">
                                     <li><a href="#">Home</a></li>
-                                    <li><a href="#">Page</a></li>
-                                    <li><a href="#">Portfolio</a></li>
-                                    <li><a href="#">Blog</a></li>
-                                    <li><a href="#">Contact</a></li>
                                 </ul>
                             </div> <!-- footer wrapper -->
                         </div>
@@ -75,12 +68,11 @@
                 <div class="w-4/5 sm:w-1/3 md:w-2/5 lg:w-2/6">
                     <div class="mt-12 footer-contact wow fadeIn" data-wow-duration="1s" data-wow-delay="0.8s">
                         <div class="footer-title">
-                            <h4 class="mb-8 text-2xl font-bold text-white">Contact Us</h4>
+                            <h4 class="mb-8 text-2xl font-bold text-white">{{__('site.contacts')}}</h4>
                         </div>
                         <ul class="contact">
-                            <li>+809272561823</li>
+                            <li><a href="tel:+38{{preg_replace("/[^0-9]/", '', setting('site.phone'))}}">{{setting('site.phone')}}</a></li>
                             <li>info@gmail.com</li>
-                            <li>www.yourweb.com</li>
                             <li>123 Stree New York City , United <br> States Of America 750.</li>
                         </ul>
                     </div> <!-- footer contact -->

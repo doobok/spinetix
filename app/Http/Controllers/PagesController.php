@@ -13,6 +13,11 @@ class PagesController extends Controller
 
     public function page($slug)
     {
-        return view('pages.page');
+        $page = 'page';
+        ($slug === 'contacts') ? $page='contacts' : '';
+        ($slug === 'mediaplayers') ? $page='mediaplayers' : '';
+        ($slug === 'software') ? $page='software' : '';
+
+        return view('pages.' . $page);
     }
 }
