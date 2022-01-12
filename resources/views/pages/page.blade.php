@@ -2,23 +2,22 @@
 
 @section('head')
     @component('components.meta')
-        @slot('title') Page @endslot
-        @slot('description') {{__('seo.mp-description', [
-                            'phone' => setting('site.phone'),
-                            'schedule' => setting('site.schedule'),
-                        ])}}
+        @slot('title') {{$page->getTranslatedAttribute('title')}} @endslot
+        @slot('description') {{$page->getTranslatedAttribute('description')}} @endslot
+        @slot('image') @if($page->seo_image == true)
+            {{ Voyager::image( $page->seo_image ) }}@else
+            {{ Voyager::image( $page->image ) }}@endif
         @endslot
-        @slot('image') /main.jpg @endslot
-        @slot('date')  @endslot
+        @slot('date') {{$page->created_at}} @endslot
     @endcomponent
 @endsection
 
 @section('content')
     @component('components.breadcrumbs', [
       'crumbs' => [
-          ['', __('site.contacts')],
+          ['', $page->getTranslatedAttribute('heading')],
         ],
-      'h1' => __('site.contacts')
+      'h1' => $page->getTranslatedAttribute('heading')
       ])
     @endcomponent
 

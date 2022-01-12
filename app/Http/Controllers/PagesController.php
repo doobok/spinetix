@@ -2,7 +2,9 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Page;
 use Illuminate\Http\Request;
+use PhpOption\None;
 
 class PagesController extends Controller
 {
@@ -13,11 +15,19 @@ class PagesController extends Controller
 
     public function page($slug)
     {
-        $page = 'page';
-        ($slug === 'contacts') ? $page='contacts' : '';
-        ($slug === 'mediaplayers') ? $page='mediaplayers' : '';
-        ($slug === 'software') ? $page='software' : '';
+        $page='';
+        $slg='';
+        ($slug === 'contacts') ? $slg='contacts' : '';
+        ($slug === 'mediaplayers') ? $slg='mediaplayers' : '';
+        ($slug === 'software') ? $slg='software' : '';
 
-        return view('pages.' . $page);
+        if(!$slg){
+            $page = Page::where('slug', $slug)->firstOrFail();
+            $slg = 'page';
+        }
+
+        return view('pages.' . $slg, [
+            'page' => $page
+        ]);
     }
 }
