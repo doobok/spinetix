@@ -2,7 +2,7 @@
 
 @section('head')
     @component('components.meta')
-        @slot('title') {{__('seo.software-h1')}} @endslot
+        @slot('title') {{__('seo.software-title')}} @endslot
         @slot('description') {{__('seo.software-desc', [
                             'phone' => setting('site.phone'),
                             'schedule' => setting('site.schedule'),

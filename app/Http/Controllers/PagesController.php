@@ -18,6 +18,7 @@ class PagesController extends Controller
         $page='';
         $slg='';
         ($slug === 'contacts') ? $slg='contacts' : '';
+        ($slug === 'products') ? $slg='products' : '';
         ($slug === 'mediaplayers') ? $slg='mediaplayers' : '';
         ($slug === 'software') ? $slg='software' : '';
 

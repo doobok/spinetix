@@ -10,4 +10,7 @@ return [
     'software-h1' => 'Редактор контента Elementi',
     'software-title' => '',
     'software-desc' => ' 📞:phone 🕑 :schedule',
+    'products-h1' => 'Продукты SpinetiX',
+    'products-title' => '',
+    'products-desc' => ' 📞:phone 🕑 :schedule',
 ];

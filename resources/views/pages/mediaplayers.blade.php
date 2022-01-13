@@ -2,7 +2,7 @@
 
 @section('head')
     @component('components.meta')
-        @slot('title') {{__('seo.mediaplayers-h1')}} @endslot
+        @slot('title') {{__('seo.mediaplayers-title')}} @endslot
         @slot('description') {{__('seo.mediaplayers-desc', [
                             'phone' => setting('site.phone'),
                             'schedule' => setting('site.schedule'),
