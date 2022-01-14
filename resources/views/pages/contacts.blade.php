@@ -24,55 +24,40 @@
 
     <div class="relative flex flex-col-reverse py-16 lg:py-0 lg:flex-col">
         <div class="w-full max-w-xl px-4 mx-auto md:px-0 lg:px-8 lg:py-20 lg:max-w-screen-xl">
-            <div class="mb-0 lg:max-w-lg lg:pr-8 xl:pr-6">
-                <h2 class="mb-5 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none md:text-center">
-                    The quick, brown fox<br class="hidden md:block" />
-                    jumps over a lazy dog
-                </h2>
-                <p class="mb-5 text-base text-gray-700 md:text-lg md:text-center">
-                    Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae. explicabo.
-                </p>
-                <div class="flex flex-col items-center">
-                    <div class="mb-2 text-sm text-gray-600 md:mb-2">Follow us</div>
-                    <div class="flex items-center space-x-4">
-                        <div class="flex items-center">
-                            <a href="/" class="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400">
-                                <svg viewBox="0 0 24 24" fill="currentColor" class="h-5">
-                                    <path
-                                        d="M24,4.6c-0.9,0.4-1.8,0.7-2.8,0.8c1-0.6,1.8-1.6,2.2-2.7c-1,0.6-2,1-3.1,1.2c-0.9-1-2.2-1.6-3.6-1.6 c-2.7,0-4.9,2.2-4.9,4.9c0,0.4,0,0.8,0.1,1.1C7.7,8.1,4.1,6.1,1.7,3.1C1.2,3.9,1,4.7,1,5.6c0,1.7,0.9,3.2,2.2,4.1 C2.4,9.7,1.6,9.5,1,9.1c0,0,0,0,0,0.1c0,2.4,1.7,4.4,3.9,4.8c-0.4,0.1-0.8,0.2-1.3,0.2c-0.3,0-0.6,0-0.9-0.1c0.6,2,2.4,3.4,4.6,3.4 c-1.7,1.3-3.8,2.1-6.1,2.1c-0.4,0-0.8,0-1.2-0.1c2.2,1.4,4.8,2.2,7.5,2.2c9.1,0,14-7.5,14-14c0-0.2,0-0.4,0-0.6 C22.5,6.4,23.3,5.5,24,4.6z"
-                                    ></path>
-                                </svg>
-                            </a>
-                        </div>
-                        <div class="flex items-center">
-                            <a href="/" class="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400">
-                                <svg viewBox="0 0 30 30" fill="currentColor" class="h-6">
-                                    <circle cx="15" cy="15" r="4"></circle>
-                                    <path
-                                        d="M19.999,3h-10C6.14,3,3,6.141,3,10.001v10C3,23.86,6.141,27,10.001,27h10C23.86,27,27,23.859,27,19.999v-10   C27,6.14,23.859,3,19.999,3z M15,21c-3.309,0-6-2.691-6-6s2.691-6,6-6s6,2.691,6,6S18.309,21,15,21z M22,9c-0.552,0-1-0.448-1-1   c0-0.552,0.448-1,1-1s1,0.448,1,1C23,8.552,22.552,9,22,9z"
-                                    ></path>
-                                </svg>
-                            </a>
-                        </div>
-                        <div class="flex items-center">
-                            <a href="/" class="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400">
-                                <svg viewBox="0 0 24 24" fill="currentColor" class="h-5">
-                                    <path
-                                        d="M22,0H2C0.895,0,0,0.895,0,2v20c0,1.105,0.895,2,2,2h11v-9h-3v-4h3V8.413c0-3.1,1.893-4.788,4.659-4.788 c1.325,0,2.463,0.099,2.795,0.143v3.24l-1.918,0.001c-1.504,0-1.795,0.715-1.795,1.763V11h4.44l-1,4h-3.44v9H22c1.105,0,2-0.895,2-2 V2C24,0.895,23.105,0,22,0z"
-                                    ></path>
-                                </svg>
-                            </a>
-                        </div>
-                        <div class="flex items-center">
-                            <a href="/" class="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400">
-                                <svg viewBox="0 0 24 24" fill="currentColor" class="h-6">
-                                    <path
-                                        d="M23.8,7.2c0,0-0.2-1.7-1-2.4c-0.9-1-1.9-1-2.4-1C17,3.6,12,3.6,12,3.6h0c0,0-5,0-8.4,0.2 c-0.5,0.1-1.5,0.1-2.4,1c-0.7,0.7-1,2.4-1,2.4S0,9.1,0,11.1v1.8c0,1.9,0.2,3.9,0.2,3.9s0.2,1.7,1,2.4c0.9,1,2.1,0.9,2.6,1 c1.9,0.2,8.2,0.2,8.2,0.2s5,0,8.4-0.3c0.5-0.1,1.5-0.1,2.4-1c0.7-0.7,1-2.4,1-2.4s0.2-1.9,0.2-3.9v-1.8C24,9.1,23.8,7.2,23.8,7.2z M9.5,15.1l0-6.7l6.5,3.4L9.5,15.1z"
-                                    ></path>
-                                </svg>
-                            </a>
-                        </div>
-                    </div>
+            <div class="mb-0 lg:max-w-lg lg:pr-8 xl:pr-6 flex flex-col items-center">
+                <div class="w-full sm:w-3/4">
+                    <ul class="list-reset mb-6 text-lg mx-auto">
+                        <li class="my-7">
+                      <span class="mx-2 flex">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="w-8 text-primary" fill="currentColor">
+                          <path d="M12 0c-4.198 0-8 3.403-8 7.602 0 4.198 3.469 9.21 8 16.398 4.531-7.188 8-12.2 8-16.398 0-4.199-3.801-7.602-8-7.602zm0 11c-1.657 0-3-1.343-3-3s1.343-3 3-3 3 1.343 3 3-1.343 3-3 3z"/>
+                        </svg>
+                        <span class="ml-4 text-lg md:text-xl text-gray-800">00001, {{__('site.global-address')}}</span>
+                      </span>
+                        </li>
+                        <li class="my-7">
+                      <span class="mx-2 flex">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" class="w-8 text-primary" fill="currentColor">
+                          <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/>
+                        </svg>
+                        <span class="mx-4 text-lg md:text-2xl text-gray-800"><a
+                                href="tel:+38{{preg_replace("/[^0-9]/", '', setting('site.phone'))}}">{{setting('site.phone')}}</a></span>
+                      </span>
+                        </li>
+                        <li class="my-7">
+                      <span class="mx-2 flex">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="w-8 text-primary" fill="currentColor">
+                          <path d="M12 12.713l-11.985-9.713h23.971l-11.986 9.713zm-5.425-1.822l-6.575-5.329v12.501l6.575-7.172zm10.85 0l6.575 7.172v-12.501l-6.575 5.329zm-1.557 1.261l-3.868 3.135-3.868-3.135-8.11 8.848h23.956l-8.11-8.848z"/>
+                        </svg>
+                        <span class="ml-4 text-lg md:text-2xl text-gray-800"><a
+                                href="mailto:{{setting('site.email')}}">{{setting('site.email')}}</a></span>
+                      </span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="flex flex-col items-center mt-5 text-gray-600">
+                    <div class="mb-2 text-sm md:mb-2">{{__('site.follow-us')}}</div>
+                    @include('components.social')
                 </div>
             </div>
         </div>

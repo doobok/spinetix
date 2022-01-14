@@ -1,32 +1,31 @@
-.animate {
+.animate-vue {
     transition-delay: .1s;
     transition-duration: .25s;
     transition-timing-function: ease-in;
 }
-
-.fade-up {
+.zz-up {
     transform: translateY(+100px);
     opacity: 0
 }
-.fade-up.animate-active {
+.zz-up.animate-scroll {
     transform: translateY(0);
     opacity: 1
 }
 
-.fade-r {
+.zz-r {
     transform: translateX(+100px);
     opacity: 0
 }
-.fade-r.animate-active {
+.zz-r.animate-scroll {
     transform: translateX(0);
     opacity: 1
 }
 
-.fade-l {
+.zz-l {
     transform: translateX(-100px);
     opacity: 0
 }
-.fade-l.animate-active {
+.zz-l.animate-scroll {
     transform: translateX(0);
     opacity: 1
 }
