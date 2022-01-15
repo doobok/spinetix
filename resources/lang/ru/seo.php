@@ -13,4 +13,13 @@ return [
     'products-h1' => 'Продукты SpinetiX',
     'products-title' => '',
     'products-desc' => ' 📞:phone 🕑 :schedule',
+    'projects-h1' => 'Наши проекты',
+    'projects-title' => '',
+    'projects-desc' => ' 📞:phone 🕑 :schedule',
+    'services-h1' => 'Наши услуги',
+    'services-title' => '',
+    'services-desc' => ' 📞:phone 🕑 :schedule',
+    'wiki-h1' => 'База знаний',
+    'wiki-title' => '',
+    'wiki-desc' => ' 📞:phone 🕑 :schedule',
 ];

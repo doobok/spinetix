@@ -17,10 +17,21 @@ class PagesController extends Controller
     {
         $page='';
         $slg='';
+        $data='';
         ($slug === 'contacts') ? $slg='contacts' : '';
         ($slug === 'products') ? $slg='products' : '';
+        ($slug === 'services') ? $slg='services' : '';
+        ($slug === 'projects') ? $slg='projects' : '';
         ($slug === 'mediaplayers') ? $slg='mediaplayers' : '';
         ($slug === 'software') ? $slg='software' : '';
+        if($slug === 'services') {
+            $slg='services';
+            $data=Page::where('id', '<', 4)->get();
+        }
+        if($slug === 'wiki') {
+            $slg='wiki';
+            $data=Page::where('id', '>', 4)->get();
+        }
 
         if(!$slg){
             $page = Page::where('slug', $slug)->firstOrFail();
@@ -28,7 +39,8 @@ class PagesController extends Controller
         }
 
         return view('pages.' . $slg, [
-            'page' => $page
+            'page' => $page,
+            'data' => $data,
         ]);
     }
 }

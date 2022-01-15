@@ -34,7 +34,7 @@
       </ol>
   </div>
 </section>
-<section class="bg-gray-100">
+<section>
     <div class="container">
         <div class="row">
             <div class="w-full lg:w-1/2">

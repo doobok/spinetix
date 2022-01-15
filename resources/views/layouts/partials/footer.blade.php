@@ -2,25 +2,39 @@
     <div class="footer-bg" style="background-image: url(/assets/wave-bottom.svg);"></div>
     <div class="container">
         <div v-animate="'zz-up'">
-            <div class="px-6 pt-10 pb-20 mb-12 bg-white rounded-lg shadow-xl md:px-12 subscribe-area">
-                <div class="row">
-                    <div class="w-full lg:w-1/2">
-                        <div class="lg:mt-12 subscribe-content text-black">
-                            <h2 class="text-2xl font-bold sm:text-4xl subscribe-title">
-                                Subscribe Our Newsletter
-                                <span class="block font-normal">get reguler updates</span>
-                            </h2>
+            <div class="justify-center row">
+                <a href="{{route('page', 'mediaplayers')}}">
+                    <div class="w-full sm:w-1/2">
+                        <div class="single-services">
+                            <div class="services-icon relative">
+                                <img class="shape" src="/assets/services-shape.svg" alt="shape">
+                                <img class="shape-1" src="/assets/services-shape-1.svg" alt="shape">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-12 text-white absolute left-9 top-9" fill="currentColor" viewBox="0 0 24 24"><path d="M3 22v-20l18 10-18 10z"/></svg>
+                            </div>
+                            <div class="my-2 services-content">
+                                <h4 class="mb-2 text-xl font-bold text-gray-900">{{__('site.mediaplayers')}}</h4>
+                                <p class="mb-4">{{__('site.mediaplayers-desc')}}</p>
+                                <a class="duration-300 text-black hover:text-theme-color" href="{{route('page', 'mediaplayers')}}">{{__('site.read-more')}}</a>
+                            </div>
                         </div>
                     </div>
-                    <div class="w-full lg:w-1/2">
-                        <div class="mt-12 subscribe-form">
-                            <form action="#" class="relative focus:outline-none">
-                                <input type="email" placeholder="Enter eamil" class="w-full py-4 pl-6 pr-40 duration-300 border-2 rounded focus:border-theme-color focus:outline-none bg-gray-50">
-                                <button class="main-btn gradient-btn">Subscribe</button>
-                            </form>
+                </a>
+                <a href="{{route('page', 'software')}}">
+                    <div class="w-full sm:w-1/2">
+                        <div class="single-services">
+                            <div class="services-icon relative">
+                                <img class="shape" src="/assets/services-shape.svg" alt="shape">
+                                <img class="shape-1" src="/assets/services-shape-2.svg" alt="shape">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-12 text-white absolute left-8 top-10" fill="currentColor" viewBox="0 0 24 24"><path d="M0 0v19h24v-19h-24zm22 17h-20v-15h20v15zm-6.599 4l2.599 3h-12l2.599-3h6.802zm-6.401-16l6 4.674-2.538.427 1.538 3.095-1.571.804-1.546-3.157-1.883 1.759v-7.602z"/></svg>
+                            </div>
+                            <div class="my-2 services-content">
+                                <h4 class="mb-2 text-xl font-bold text-gray-900">{{__('site.software')}}</h4>
+                                <p class="mb-4">{{__('site.software-desc')}}</p>
+                                <a class="duration-300 text-black hover:text-theme-color" href="{{route('page', 'software')}}">{{__('site.read-more')}}</a>
+                            </div>
                         </div>
                     </div>
-                </div>
+                </a>
             </div>
         </div>
         <div class="footer-widget pb-120">
@@ -61,6 +75,7 @@
                                 </div>
                                 <ul class="link">
                                     <li><a href="{{route('page', 'to-buyers')}}">{{__('site.to-buyers')}}</a></li>
+                                    <li><a href="{{route('page', 'wiki')}}">{{__('site.wiki')}}</a></li>
                                     <li><a href="{{route('page', 'policy')}}">{{__('site.policy')}}</a></li>
                                 </ul>
                             </div>

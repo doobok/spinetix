@@ -23,8 +23,9 @@
                         </div>
 
                         <div class="flex flex-nowrap gap-x-2">
-                            <dark-mode class="hidden lg:block"></dark-mode>
                             <nav-bar class="hidden lg:block" lang="{{app()->getLocale()}}"></nav-bar>
+                            <dark-mode class="hidden lg:block"></dark-mode>
+
                         </div>
 
                         <button class="block navbar-toggler focus:outline-none lg:hidden" type="button"

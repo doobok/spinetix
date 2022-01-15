@@ -5,11 +5,11 @@
     @yield('head')
 </head>
 <body>
-<div id="app">
+<div id="app" class="bg-gray-100">
 
     @include('layouts.partials.navbar')
 
-    <div class="bg-gray-100">
+    <div class="bg-no-repeat bg-contain bg-right" style="background-image: url('/assets/images/about-shape-1.svg');">
         @yield('content')
     </div>
 
