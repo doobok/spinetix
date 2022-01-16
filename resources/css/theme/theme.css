@@ -123,6 +123,25 @@ p {
     @apply font-normal;
 }
 
+.single-card {
+
+    @apply mx-4 mt-4 text-center duration-300 bg-white border-2 border-transparent rounded-lg shadow-lg;
+}
+.single-card:hover {
+    @apply border-theme-color-2;
+}
+.single-card {
+    @apply relative inline-block;
+}
+.single-card img {
+    @apply duration-300;
+}
+.single-card:hover .card-image {
+    transform: scale(1.02);
+}
+.single-card:hover .services-icon .shape {
+    transform: rotate(80deg);
+}
 
 .single-services {
 

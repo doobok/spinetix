@@ -9,7 +9,7 @@
 
     @include('layouts.partials.navbar')
 
-    <div class="bg-no-repeat bg-contain bg-right" style="background-image: url('/assets/images/about-shape-1.svg');">
+    <div class="bg-no-repeat bg-contain bg-right" style="background-image: url('/assets/about-shape-1.svg');">
         @yield('content')
     </div>
 

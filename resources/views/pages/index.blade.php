@@ -15,9 +15,15 @@
 
 @section('content')
 
-    @include('layouts.animated.header')
+    @include('layouts.partials.main-page.header')
+
+    @include('layouts.partials.main-page.features')
+    @include('layouts.partials.main-page.simple')
+    @include('layouts.partials.main-page.universalism')
+    @include('layouts.partials.main-page.reliability')
+    @include('layouts.partials.main-page.where-used')
+    @include('layouts.partials.main-page.block3')
 
 
-    <h1>Hello world</h1>
 
 @endsection
