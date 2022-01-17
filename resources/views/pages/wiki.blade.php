@@ -52,7 +52,7 @@
         <div class="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl">
             @foreach($data as $item)
             <div class="border-b">
-                <a href="{{route('page', $item->slug)}}" type="button" aria-label="Open item" title="Open item" class="flex items-center justify-between w-full p-4 focus:outline-none">
+                <a href="{{route('page', $item->slug)}}" type="button" aria-label="Open item" class="flex items-center justify-between w-full p-4 focus:outline-none">
                     <p class="text-lg font-medium">{{$item->getTranslatedAttribute('heading')}}</p>
                     <svg viewBox="0 0 24 24" class="w-3 text-gray-600 transition-transform duration-200" fill="currentColor">
                         <path d="M7.33 24l-2.83-2.829 9.339-9.175-9.339-9.167 2.83-2.829 12.17 11.996z"/>

@@ -22,7 +22,7 @@
     @include('layouts.partials.main-page.universalism')
     @include('layouts.partials.main-page.reliability')
     @include('layouts.partials.main-page.where-used')
-    @include('layouts.partials.main-page.block3')
+    @include('layouts.partials.main-page.why-we')
 
 
 

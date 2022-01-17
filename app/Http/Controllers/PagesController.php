@@ -30,7 +30,7 @@ class PagesController extends Controller
         }
         if($slug === 'wiki') {
             $slg='wiki';
-            $data=Page::where('id', '>', 4)->get();
+            $data=Page::where('id', '>', 5)->get();
         }
 
         if(!$slg){
