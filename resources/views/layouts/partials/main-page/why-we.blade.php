@@ -3,7 +3,7 @@
         <div class="row">
             <div class="w-full lg:w-1/2">
                 <div class="relative pb-8 mt-12 video-content">
-                    <img class="absolute bottom-0 left-0 -ml-8 dots" src="/assets/images/dots.svg" alt="dots">
+                    <img class="absolute bottom-0 left-0 -ml-8 dots" src="/assets/dots.svg" alt="dots">
                     <div v-animate="'zz-l'" class="relative mr-6 rounded-lg shadow-md video-wrapper">
                         <div class="video-image">
                             <img src="/assets/mediafasad.jpg" class="rounded-lg" alt="{{__('main.why-we')}}">

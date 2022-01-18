@@ -15,7 +15,7 @@
                     <img src="/assets/where-used-{{$i}}.jpg" class="card-image rounded-t-lg m-0" alt="{{__('main.where-used-title-' . $i)}}">
                     <div class="flex items-center">
                         <div class="relative services-icon">
-                            <img class="shape" src="/assets/images/services-shape.svg" alt="shape">
+                            <img class="shape" src="/assets/services-shape.svg" alt="shape">
                         </div>
                         <div class="author-content media-body">
                             <h6 class="mb-1 text-xl font-bold text-gray-900">{{__('main.where-used-title-' . $i)}}</h6>

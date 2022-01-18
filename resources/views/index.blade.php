@@ -149,12 +149,12 @@
         </div> <!-- row -->
     </div> <!-- container -->
     <div class="about-shape-1">
-        <img src="/assets/images/about-shape-1.svg" alt="shape">
+        <img src="/assets/about-shape-1.svg" alt="shape">
     </div>
 </section>
 
     <footer id="footer" class="relative z-10 footer-area pt-120">
-        <div class="footer-bg" style="background-image: url(/assets/images/footer-bg.svg);"></div>
+        <div class="footer-bg" style="background-image: url(/assets/footer-bg.svg);"></div>
         <div class="container">
             <div class="px-6 pt-10 pb-20 mb-12 bg-gray-100 rounded-lg shadow-xl md:px-12 subscribe-area wow fadeIn" data-wow-duration="1s" data-wow-delay="0.5s">
                 <div class="row">

@@ -102,7 +102,7 @@
         </div> <!-- container -->
     </div> <!-- navbar area -->
 
-    <div id="home" class="header-hero" style="background-image: url(/assets/images/banner-bg.svg)">
+    <div id="home" class="header-hero" style="background-image: url(/assets/banner-bg.svg)">
         <div class="container">
             <div class="justify-center row">
                 <div class="w-full lg:w-2/3">
