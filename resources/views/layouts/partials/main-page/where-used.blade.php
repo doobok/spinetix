@@ -10,7 +10,7 @@
         </div>
         <div class="row testimonial-active">
             @for($i=1; $i<=6; $i++)
-            <div class="w-full lg:w-1/3">
+            <div v-animate="'zz-up'" class="w-full lg:w-1/3">
                 <div class="single-card">
                     <img src="/assets/where-used-{{$i}}.jpg" class="card-image rounded-t-lg m-0" alt="{{__('main.where-used-title-' . $i)}}">
                     <div class="flex items-center">

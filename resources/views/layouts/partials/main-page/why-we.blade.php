@@ -4,16 +4,16 @@
             <div class="w-full lg:w-1/2">
                 <div class="relative pb-8 mt-12 video-content">
                     <img class="absolute bottom-0 left-0 -ml-8 dots" src="/assets/images/dots.svg" alt="dots">
-                    <div class="relative mr-6 rounded-lg shadow-md video-wrapper">
+                    <div v-animate="'zz-l'" class="relative mr-6 rounded-lg shadow-md video-wrapper">
                         <div class="video-image">
                             <img src="/assets/mediafasad.jpg" class="rounded-lg" alt="{{__('main.why-we')}}">
                         </div>
-                    </div> <!-- video wrapper -->
-                </div> <!-- video content -->
+                    </div>
+                </div>
             </div>
             <div class="w-full lg:w-1/2">
                 <div class="pl-0 mt-12 counter-wrapper lg:pl-16">
-                    <div class="counter-content">
+                    <div v-animate="'zz-r'" class="counter-content">
                         <div class="mb-8 section-title">
                             <div class="line"></div>
                             <h3 class="title text-gray-800">{{__('main.why-we')}}</h3>
@@ -22,7 +22,7 @@
 
                         <h6 class="text-gray-700 mt-4 text-xl">{{__('main.why-we-h3')}}</h6>
                     </div>
-                    <div class="row no-gutters pb-4">
+                    <div v-animate="'zz-up'" class="row no-gutters pb-4">
                         <div class="flex items-center justify-center single-counter counter-color-1">
                             <div class="text-center counter-items flex flex-col">
                                 <svg xmlns="http://www.w3.org/2000/svg" class="h-10 text-white justify-center" fill="currentColor" viewBox="0 0 24 24">

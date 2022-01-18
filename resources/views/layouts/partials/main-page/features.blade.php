@@ -9,7 +9,7 @@
             </div>
         </div>
         <div class="justify-center row">
-            <div class="w-full sm:w-2/3 lg:w-1/3">
+            <div v-animate="'zz-l'" class="w-full sm:w-2/3 lg:w-1/3">
                 <div class="single-services">
                     <div class="services-icon">
                         <img class="shape" src="/assets/images/services-shape.svg" alt="shape">
@@ -25,7 +25,7 @@
                     </div>
                 </div>
             </div>
-            <div class="w-full sm:w-2/3 lg:w-1/3">
+            <div v-animate="'zz-up'" class="w-full sm:w-2/3 lg:w-1/3">
                 <div class="mt-8 text-center single-services">
                     <div class="services-icon">
                         <img class="shape" src="/assets/images/services-shape.svg" alt="shape">
@@ -41,7 +41,7 @@
                     </div>
                 </div>
             </div>
-            <div class="w-full sm:w-2/3 lg:w-1/3">
+            <div v-animate="'zz-r'" class="w-full sm:w-2/3 lg:w-1/3">
                 <div class="mt-8 text-center single-services">
                     <div class="services-icon">
                         <img class="shape" src="/assets/images/services-shape.svg" alt="shape">

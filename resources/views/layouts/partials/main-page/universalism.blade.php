@@ -1,7 +1,7 @@
 <section id="universalism" class="relative pt-20 about-area">
     <div class="container">
         <div class="row">
-            <div class="w-full lg:w-1/2 lg:order-last">
+            <div v-animate="'zz-l'" class="w-full lg:w-1/2 lg:order-last">
                 <div class="mx-4 mt-12 about-content">
                     <div class="mb-4 section-title">
                         <div class="line"></div>
@@ -12,7 +12,7 @@
                 </div>
             </div>
             <div class="w-full lg:w-1/2 lg:order-first">
-                <div class="mx-4 mt-12 text-center about-image">
+                <div v-animate="'zz-r'" class="mx-4 mt-12 text-center about-image">
                     <img src="/assets/content-concept.jpg" class="rounded-lg" alt="{{__('main.universalism-h2')}}">
                 </div>
             </div>
