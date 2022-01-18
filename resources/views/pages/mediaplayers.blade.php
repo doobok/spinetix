@@ -51,7 +51,7 @@
         </div>
         <div class="max-w-xl mt-5 md:mx-auto sm:text-center lg:max-w-2xl md:mt-6">
             <p class="text-base text-gray-700 md:text-lg">
-                Бескомпромиссное, профессиональное, мощное и надежное решение для создания распределенных информационных зон, управления экранами, панелями, дисплеями, видеостенами, интерактивными системами, создания и показа рекламы и информации, обновляемой в реальном времени
+                {{__('players.desc')}}
             </p>
         </div>
     </div>
@@ -60,10 +60,10 @@
     <div class="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
         <div class="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
             <h3 class="max-w-lg mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto">
-                Общие характеристики
+                {{__('players.specifications-h2')}}
             </h3>
             <p class="text-base text-gray-700 md:text-lg">
-                Разработан в Швейцарии. Произведен в Германии
+                {{__('players.specifications-desc')}}
             </p>
         </div>
         <div class="grid gap-10 row-gap-8 mx-auto sm:row-gap-10 lg:max-w-screen-lg sm:grid-cols-2 lg:grid-cols-3">
@@ -73,31 +73,41 @@
                     <path d="M2 2a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H2zm2.372 3.715.435-.714h1.71v3.93h.733v.957h-.733V11H5.405V9.888H2.5v-.971c.574-1.077 1.225-2.142 1.872-3.202zm7.73-.714h1.306l-2.14 2.584L13.5 11h-1.428l-1.679-2.624-.615.7V11H8.59V5.001h1.187v2.686h.057L12.102 5z"/>
                 </svg>
                 <div class="flex flex-col justify-center">
-                    <p class="text-base text-gray-800">Мультивидеодекодинг в 4К 60fps</p>
+                    <p class="text-base text-gray-800">
+                        {{__('players.specifications-1')}}
+                    </p>
                 </div>
             </div>
             <div class="flex text-gray-800">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-20 h-20 mr-4"><path d="M21.698 10.658l2.302 1.342-12.002 7-11.998-7 2.301-1.342 9.697 5.658 9.7-5.658zm-9.7 10.657l-9.697-5.658-2.301 1.343 11.998 7 12.002-7-2.302-1.342-9.7 5.657zm0-19l8.032 4.685-8.032 4.685-8.029-4.685 8.029-4.685zm0-2.315l-11.998 7 11.998 7 12.002-7-12.002-7z"/></svg>
                 <div class="flex flex-col justify-center">
-                    <p class="text-base text-gray-800">Готовые пакеты контента</p>
+                    <p class="text-base text-gray-800">
+                        {{__('players.specifications-2')}}
+                    </p>
                 </div>
             </div>
             <div class="flex text-gray-800">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-20 h-20 mr-4"><path d="M24 20v1h-4v-1h.835c.258 0 .405-.178.321-.422l-.473-1.371h-2.231l-.575-1.59h2.295l-1.362-4.077-1.154 3.451-.879-2.498.921-2.493h2.222l3.033 8.516c.111.315.244.484.578.484h.469zm-6-1h1v2h-7v-2h.532c.459 0 .782-.453.633-.887l-.816-2.113h-6.232l-.815 2.113c-.149.434.174.887.633.887h1.065v2h-7v-2h.43c.593 0 1.123-.375 1.32-.935l5.507-15.065h3.952l5.507 15.065c.197.56.69.935 1.284.935zm-10.886-6h4.238l-2.259-6.199-1.979 6.199z"/></svg>
                 <div class="flex flex-col justify-center">
-                    <p class="text-base text-gray-800">Пользовательские шрифты</p>
+                    <p class="text-base text-gray-800">
+                        {{__('players.specifications-3')}}
+                    </p>
                 </div>
             </div>
             <div class="flex text-gray-800">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-20 h-20 mr-4"><path d="M12 5c3.453 0 5.891 2.797 5.567 6.78 1.745-.046 4.433.751 4.433 3.72 0 1.93-1.57 3.5-3.5 3.5h-13c-1.93 0-3.5-1.57-3.5-3.5 0-2.797 2.479-3.833 4.433-3.72-.167-4.218 2.208-6.78 5.567-6.78zm0-2c-4.006 0-7.267 3.141-7.479 7.092-2.57.463-4.521 2.706-4.521 5.408 0 3.037 2.463 5.5 5.5 5.5h13c3.037 0 5.5-2.463 5.5-5.5 0-2.702-1.951-4.945-4.521-5.408-.212-3.951-3.473-7.092-7.479-7.092z"/></svg>
                 <div class="flex flex-col justify-center">
-                    <p class="text-base text-gray-800">Редактор контента ARYA</p>
+                    <p class="text-base text-gray-800">
+                        {{__('players.specifications-4')}}
+                    </p>
                 </div>
             </div>
             <div class="flex text-gray-800">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-20 h-20 mr-4"><path d="M17 3v-2c0-.552.447-1 1-1s1 .448 1 1v2c0 .552-.447 1-1 1s-1-.448-1-1zm-12 1c.553 0 1-.448 1-1v-2c0-.552-.447-1-1-1-.553 0-1 .448-1 1v2c0 .552.447 1 1 1zm13 13v-3h-1v4h3v-1h-2zm-5 .5c0 2.481 2.019 4.5 4.5 4.5s4.5-2.019 4.5-4.5-2.019-4.5-4.5-4.5-4.5 2.019-4.5 4.5zm11 0c0 3.59-2.91 6.5-6.5 6.5s-6.5-2.91-6.5-6.5 2.91-6.5 6.5-6.5 6.5 2.91 6.5 6.5zm-14.237 3.5h-7.763v-13h19v1.763c.727.33 1.399.757 2 1.268v-9.031h-3v1c0 1.316-1.278 2.339-2.658 1.894-.831-.268-1.342-1.111-1.342-1.984v-.91h-9v1c0 1.316-1.278 2.339-2.658 1.894-.831-.268-1.342-1.111-1.342-1.984v-.91h-3v21h11.031c-.511-.601-.938-1.273-1.268-2z"/></svg>
                 <div class="flex flex-col justify-center">
-                    <p class="text-base text-gray-800">Плейлисты и расписания</p>
+                    <p class="text-base text-gray-800">
+                        {{__('players.specifications-5')}}
+                    </p>
                 </div>
             </div>
             <div class="flex text-gray-800">
@@ -106,13 +116,17 @@
                     <path d="m439.168 134.771-85.333-85.333a8.526 8.526 0 0 0-6.033-2.5H225.399c-7.603 0-11.409 9.19-6.033 14.566l73.267 73.267c3.337 3.337 3.337 8.738 0 12.066l-73.267 73.267c-5.376 5.376-1.57 14.566 6.033 14.566H256a8.536 8.536 0 0 0 8.533-8.533V209.07a8.536 8.536 0 0 1 8.533-8.533h108.868a8.513 8.513 0 0 0 6.033-2.5l51.2-51.2c3.329-3.328 3.329-8.738.001-12.066z"/>
                 </svg>
                 <div class="flex flex-col justify-center">
-                    <p class="text-base text-gray-800">Автоматизация контента</p>
+                    <p class="text-base text-gray-800">
+                        {{__('players.specifications-6')}}
+                    </p>
                 </div>
             </div>
             <div class="flex text-gray-800">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-20 h-20 mr-4"><path d="M21.169 19.754c.522-.79.831-1.735.831-2.754 0-2.761-2.238-5-5-5s-5 2.239-5 5 2.238 5 5 5c1.019 0 1.964-.309 2.755-.832l2.831 2.832 1.414-1.414-2.831-2.832zm-4.169.246c-1.654 0-3-1.346-3-3s1.346-3 3-3 3 1.346 3 3-1.346 3-3 3zm-4.89 2h-7.11l2.599-3h2.696c.345 1.152.976 2.18 1.815 3zm-2.11-5h-10v-17h22v12.11c-.574-.586-1.251-1.068-2-1.425v-8.685h-18v13h8.295c-.19.634-.295 1.305-.295 2zm-4-4h-2v-6h2v6zm3 0h-2v-9h2v9zm3 0h-2v-4h2v4z"/></svg>
                 <div class="flex flex-col justify-center">
-                    <p class="text-base text-gray-800">Мониторинг и отчетность о показах</p>
+                    <p class="text-base text-gray-800">
+                        {{__('players.specifications-7')}}
+                    </p>
                 </div>
             </div>
             <div class="flex text-gray-800">
@@ -120,7 +134,9 @@
                     <path d="m13.1 3.5.7 1.1.7-1.1V5h1V2h-1l-.7 1.1-.6-1.1h-1.1v3h1zM18.4 5V4H17V2h-1v3zM9.8 5h1V3h.9V2H8.9v1h.9zM6.6 4h.9v1h1V2h-1v1h-.9V2h-1v3h1zM5 6l1.2 14.4L12 22l5.8-1.6L19 6H5zm11.3 4.6H9.5l.2 1.8h6.4l-.5 5.5-3.6 1-3.6-1-.3-2.9h1.8l.1 1.5 2 .5 2-.5.2-2.3H8l-.5-5.3h9l-.2 1.7z"/>
                 </svg>
                 <div class="flex flex-col justify-center">
-                    <p class="text-base text-gray-800">Full frame HTML5 60fps rendering</p>
+                    <p class="text-base text-gray-800">
+                        {{__('players.specifications-8')}}
+                    </p>
                 </div>
             </div>
             <div class="flex text-gray-800">
@@ -128,7 +144,9 @@
                     <path d="M18 5h1v1a1 1 0 0 0 2 0V5h1a1 1 0 0 0 0-2h-1V2a1 1 0 0 0-2 0v1h-1a1 1 0 0 0 0 2Zm-2.5 4a3 3 0 0 0-3-3h-1a3 3 0 0 0-3 3 1 1 0 0 0 2 0 1 1 0 0 1 1-1h1a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1H12a1 1 0 0 0 0 2h.5a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1h-1a1 1 0 0 1-1-1 1 1 0 0 0-2 0 3 3 0 0 0 3 3h1a3 3 0 0 0 3-3v-1a3 3 0 0 0-.78-2 3 3 0 0 0 .78-2Zm6.1 0a1 1 0 0 0-.78 1.18 9 9 0 1 1-7-7 1 1 0 1 0 .4-2A10.8 10.8 0 0 0 12 1a11 11 0 1 0 11 11 10.8 10.8 0 0 0-.22-2.2A1 1 0 0 0 21.6 9Z"/>
                 </svg>
                 <div class="flex flex-col justify-center">
-                    <p class="text-base text-gray-800">Гарантия от производителя 3 года</p>
+                    <p class="text-base text-gray-800">
+                        {{__('players.specifications-9')}}
+                    </p>
                 </div>
             </div>
 
@@ -139,7 +157,7 @@
     <div class="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
         <div class="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
             <h3 class="max-w-lg mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto">
-                Сравнительные характеристики
+                {{__('players.specific-h2')}}
             </h3>
         </div>
         <div class="flex flex-col">
@@ -157,94 +175,17 @@
                             </tr>
                             </thead>
                             <tbody class="divide-y divide-gray-200 bg-gray-50">
+                            @for($i=1; $i<=11; $i++)
                             <tr>
                                 <td class="px-6 py-4">
-                                    Разрешение
+                                    {{__('players.specific-' . $i)}}
                                 </td>
                                 <td class="px-6 py-4">
-                                    4096x2160px 60fps
+                                    {{__('players.specific-400-' . $i)}}
                                 </td>
                             </tr>
-                            <tr>
-                                <td class="px-6 py-4">
-                                    Интерактив
-                                </td>
-                                <td class="px-6 py-4">
-                                    Расширенный, с лицензией Kiosk или Systems
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class="px-6 py-4">
-                                    Видеостены
-                                </td>
-                                <td class="px-6 py-4">
-                                    Да, с лицензией Systems
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class="px-6 py-4">
-                                    Потоковое видео
-                                </td>
-                                <td class="px-6 py-4">
-                                    Да, с лицензией Systems
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class="px-6 py-4">
-                                    HTML5
-                                </td>
-                                <td class="px-6 py-4">
-                                    Полная поддержка, с лицензией Kiosk или Systems
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class="px-6 py-4">
-                                    Видео с альфа каналом
-                                </td>
-                                <td class="px-6 py-4">
-                                    Да, с лицензией Systems
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class="px-6 py-4">
-                                    Пользовательское разрешение
-                                </td>
-                                <td class="px-6 py-4">
-                                    Да, с лицензией Systems
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class="px-6 py-4">
-                                    Real-time управление сценариями на экране
-                                </td>
-                                <td class="px-6 py-4">
-                                    Да, с лицензией Systems
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class="px-6 py-4">
-                                    Показ контента и сценариев, подготовленных в редакторе Elementi
-                                </td>
-                                <td class="px-6 py-4">
-                                    Да, с лицензией Widgets, Kiosk или Systems
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class="px-6 py-4">
-                                    Встроенное хранилище на твердотельном накопителе
-                                </td>
-                                <td class="px-6 py-4">
-                                    16ГБ
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class="px-6 py-4">
-                                    PoE+
-                                </td>
-                                <td class="px-6 py-4">
-                                    Да
-                                </td>
-                            </tr>
+                            @endfor
+
                             </tbody>
                         </table>
                     </div>
@@ -258,15 +199,17 @@
         <div class="flex flex-col lg:flex-row">
             <div class="mb-6 lg:mb-0 lg:w-1/2 lg:pr-5">
                 <h2 class="mb-5 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none">
-                    Чем отличаются<br class="hidden md:block" />
-                    плееры
+                    {{__('players.different-h2')}}<br class="hidden md:block" />
+                    {{__('players.players')}}
                     <span class="inline-block text-blue-400">SpinetiX</span>
                 </h2>
             </div>
             <div class="lg:w-1/2">
-                <p class="text-gray-800 font-bold text-xl mb-4">SpinetiX — действительно Plug & Play. Это программно-аппаратный комплекс одного производителя</p>
+                <p class="text-gray-800 font-bold text-xl mb-4">
+                    {{__('players.different-h3-1')}}
+                </p>
                 <p class="text-base text-gray-700">
-                    Мы отвечаем за каждую строчку кода и аппаратную деталь. Это не digital signage софт, к которому клиент должен покупать компьютеры. Это не аппаратный медиаплеер, на который надо устанавливать систему и проигрыватель. Мы производим digital signage продукт от и до, и несем полную ответственность за результат.
+                    {{__('players.different-desc-1')}}
                 </p>
             </div>
         </div>
@@ -278,9 +221,11 @@
                 </div>
             </div>
             <div class="lg:w-1/2">
-                <p class="text-gray-800 font-bold text-2xl mb-4">Безопасность — превыше всего</p>
+                <p class="text-gray-800 font-bold text-2xl mb-4">
+                    {{__('players.different-h3-2')}}
+                </p>
                 <p class="text-base text-gray-700">
-                    Мы отвечаем за каждую строчку кода и аппаратную деталь. Это не digital signage софт, к которому клиент должен покупать компьютеры. Это не аппаратный медиаплеер, на который надо устанавливать систему и проигрыватель. Мы производим digital signage продукт от и до, и несем полную ответственность за результат.
+                    {!! __('players.different-desc-2') !!}
                 </p>
             </div>
         </div>
@@ -292,18 +237,22 @@
                 </div>
             </div>
             <div class="lg:w-1/2">
-                <p class="text-gray-800 font-bold text-xl mb-4">Инвестиции клиентов надежно защищены — у плееров SpinetiX длинный жизненный цикл</p>
+                <p class="text-gray-800 font-bold text-xl mb-4">
+                    {{__('players.different-h3-3')}}
+                </p>
                 <p class="text-base text-gray-700">
-                    Линейка плееров производится от 5 до 7 лет. Все модели совместимы. Есть рекомендуемые модели для перехода. Любое, даже снятое с производства и гарантии оборудование, получает обновления системы бесплатно. За год до окончания производства модели, интеграторам и рынку официально объявляется статус «Не рекомендовано для длительных проектов». За всю историю SpinetiX было снято с производства всего три модели.
+                    {!! __('players.different-desc-3') !!}
                 </p>
             </div>
         </div>
 
         <div class="flex flex-col lg:flex-row mt-12">
             <div class="w-full">
-                <p class="text-gray-800 font-bold text-2xl mb-4">Плеер ваш навсегда</p>
+                <p class="text-gray-800 font-bold text-2xl mb-4">
+                    {{__('players.different-h3-4')}}
+                </p>
                 <p class="text-base text-gray-700 lg:w-2/3">
-                    Клиенты SpinetiX полностью владеют оборудованием. У нас нет никаких платежей после покупки, нет платных обновлений, нет облачных сервисов, блокирующих работу при неоплате. Медиаплеерам SpinetiX не требуется интернет кроме случаев получения данных. Именно поэтому бренд SpinetiX так любят государственные и коммерческие структуры, заботящиеся о безопасности.
+                    {!! __('players.different-desc-4') !!}
                 </p>
             </div>
         </div>
@@ -315,10 +264,11 @@
                 </div>
             </div>
             <div class="lg:w-1/2">
-                <p class="text-gray-800 font-bold text-xl mb-4">Прозрачная и честная схема затрат</p>
+                <p class="text-gray-800 font-bold text-xl mb-4">
+                    {{__('players.different-h3-5')}}
+                </p>
                 <p class="text-base text-gray-700">
-                    Оборудование не содержит движущихся частей и не обслуживается. У всех моделей плееров — пассивное охлаждение. Нет вентиляторов и технологических отверстий, кроме интерфейсных разъемов. Они не засасывают пыль и не перегреваются.
-                    <br>TCO на весь срок жизни составляет ноль грн. Официального MTBF не существует, т.к. в плеерах ничего не изнашивается. Если считать по самому слабому звену — памяти, то срок службы составляет более ста лет.
+                    {!! __('players.different-desc-5') !!}
                 </p>
             </div>
         </div>
@@ -326,30 +276,31 @@
         <div class="flex flex-col lg:flex-row mt-24">
             <div class="mb-6 lg:mb-0 lg:w-1/2 lg:pr-5">
                 <h3 class="mb-5 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none">
-                    Гарантия на медиаплееры —<br class="hidden md:block" />
-                    от
-                    <span class="inline-block text-blue-400">3 до 5 лет</span>
+                    {{__('players.guarantee-h2')}} — <br class="hidden md:block" />
+                    {{__('site.from')}}
+                    <span class="inline-block text-blue-400">3 {{__('site.to')}} 5 {{__('site.years')}}</span>
                 </h3>
                 <p class="text-base text-gray-700">
-                    Заводская гарантия — 3 года. За дополнительную плату гарантию на любые модели можно расширить до 5 лет. В случае выхода оборудования из строя по гарантии, мы просто заменяем его на новое.
+                    {{__('players.guarantee-desc')}}
                 </p>
             </div>
             <div class="lg:w-1/2">
-                <p class="text-gray-800 font-bold text-xl mb-4">Время ввода в эксплуатацию — несколько минут</p>
+                <p class="text-gray-800 font-bold text-xl mb-4">
+                    {{__('players.different-h3-6')}}
+                </p>
                 <p class="text-base text-gray-700">
-                    Процесс запуска очень прост. Плеер надо включить в розетку, и через полторы минуты все будет работать. Плееры поставляются с установленной и настроенной системой, последними обновлениями на момент отгрузки. Активирован помощник первого запуска, который позволит быстро донастроить плеер под ваше средство отображения.
-                    <br>Если плеер покупается с пакетом контента — он тоже установлен и работает с момента запуска. Ничего дополнительно настраивать не надо.
+                    {!! __('players.different-desc-6') !!}
                 </p>
             </div>
         </div>
 
         <div class="flex flex-col lg:flex-row mt-24">
             <div class="lg:w-1/2">
-                <p class="text-gray-800 font-bold text-xl mb-4">Мы облегчаем труд. API, интеграция со сторонним оборудованием и автоматизация экономят время и деньги</p>
+                <p class="text-gray-800 font-bold text-xl mb-4">
+                    {{__('players.different-h3-7')}}
+                </p>
                 <p class="text-base text-gray-700">
-                    Правильно работающий digital signage генерирует контент на экране автоматически, в зависимости от полученных извне данных, сигналов от смежного оборудования, настроенных сценариев автоматизации.
-                    <br>У плееров мощный API. Есть готовые решения для автоматизации, программные мосты с производителями дисплеев, систем управления и агрегаторами данных.
-                    <br>От включения/выключения дисплеев по расписанию до управления аромамашинами в ритейле — любые задачи реализовываются с помощью API и сценариев.
+                    {!! __('players.different-desc-7') !!}
                 </p>
             </div>
             <div class="mb-6 lg:mb-0 lg:w-1/2 lg:pr-5">
