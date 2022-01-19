@@ -4,7 +4,7 @@
             <div class="row">
                 <div class="w-full">
                     <nav class="toggleColour text-white flex items-center justify-between navbar navbar-expand-lg">
-                        <a href="/"
+                        <a href="{{route('main-page')}}"
                            class="text-2xl md:text-3xl  text-white font-bold mr-4 navbar-brand flex flex-nowrap">
                             <svg viewBox="0 0 166 178.225" class="h-8 md:h-10 mr-2" xmlns="http://www.w3.org/2000/svg"
                                  version="1.0">

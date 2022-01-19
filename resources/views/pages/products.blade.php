@@ -39,8 +39,7 @@
           </defs>
           <rect fill="url(#679d5905-e08c-4b91-a66c-84aefbb9d2f5)" width="52" height="24"></rect>
         </svg>
-          Предлагает
-        <span class="relative"> следующие продукты</span>
+          {{__('site.products-h2')}}
       </span>
             </h2>
         </div>
@@ -54,14 +53,14 @@
                     <a href="{{route('page', 'mediaplayers')}}" class="inline-block mb-3 text-black transition-colors duration-200 hover:text-deep-purple-accent-700">
                         <p class="text-2xl font-bold leading-5">{{__('seo.mediaplayers-h1')}}</p></a>
                     <p class="mb-7 text-gray-700">
-                        Надежное решение для управления экранами, панелями, дисплеями, видеостенами...
+                        {{__('site.products-desc-1')}}...
                     </p>
                     <div class="flex items-center sm:justify-center">
                         <a
                             href="{{route('page', 'mediaplayers')}}"
                             class="inline-flex items-center justify-center h-12 px-6 mr-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-blue-400 hover:bg-blue-700 focus:shadow-outline focus:outline-none"
                         >
-                            Подробнее
+                            {{__('site.read-more')}}
                         </a>
                     </div>
                 </div>
@@ -72,14 +71,14 @@
                     <a href="{{route('page', 'software')}}" class="inline-block mb-3 text-black transition-colors duration-200 hover:text-deep-purple-accent-700">
                         <p class="text-2xl font-bold leading-5">{{__('seo.software-h1')}}</p></a>
                     <p class="mb-7 text-gray-700">
-                        Elementi — приложение для создания сценариев контента и публикации на плееры SpinetiX...
+                        {{__('site.products-desc-2')}}...
                     </p>
                     <div class="flex items-center sm:justify-center">
                         <a
                             href="{{route('page', 'software')}}"
                             class="inline-flex items-center justify-center h-12 px-6 mr-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-blue-400 hover:bg-blue-700 focus:shadow-outline focus:outline-none"
                         >
-                            Подробнее
+                            {{__('site.read-more')}}
                         </a>
                     </div>
                 </div>

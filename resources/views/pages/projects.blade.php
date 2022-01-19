@@ -39,7 +39,7 @@
           </defs>
           <rect fill="url(#679d5905-e08c-4b91-a66c-84aefbb9d2f5)" width="52" height="24"></rect>
         </svg>
-          Некоторые из наших проектов
+          {{__('site.projects-h2')}}
       </span>
             </h2>
         </div>
